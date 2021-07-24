@@ -7,6 +7,9 @@ theme:
   name: material
   palette:
     primary: deep purple
+  logo: 'https://raw.githubusercontent.com/aircheats/vmware-cf-guide/main/assets/img/icon.png'
+  favicon: 'https://raw.githubusercontent.com/aircheats/vmware-cf-guide/main/assets/img/icon.png'
+
 icon:
   logo: material/book-open-variant
   repo: material/git
