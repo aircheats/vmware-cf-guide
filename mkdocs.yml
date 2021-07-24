@@ -38,8 +38,5 @@ nav:
     - Bypass Vmware:
       - Updating VM Config: vmware/vm-config.md
       - Registry Patch for VM: vmware/reg-vm.md
-  - CrossFire Guides:
-    - AFK Bot & Auto Ready Setup Instructions: crossfire/vm_afk_bot_instructions.md
-  - Video Guides: video_guides.md
-  - Tested Versions: supported_versions.md
+  - CrossFire AFK BOT: crossfire/afk-cf.md
 

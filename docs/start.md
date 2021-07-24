@@ -5,7 +5,7 @@
 ## Downloading VMWare Workstation
 
 For this guide you will need VMWare Workstation in order to run CrossFire inside a Virtual Machine.  
-You can download a VMWare trial from [their website](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html).
+You can download a VMWare trial from <a href="https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html" target="_blank">their website</a>.
 
 Download and install the program. Once you've VMWare Workstation installed, you can proceed with the next step.
 
@@ -14,7 +14,7 @@ Download and install the program. Once you've VMWare Workstation installed, you 
 In this guide the Virtual Machines will be using Windows 7.  
 This will work pretty well with CrossFire even in 2021.  
 
-You can download Windows 7 from [Microsoft's Website](https://www.microsoft.com/en-us/software-download/windows7).  
+You can download Windows 7 from <a href="https://www.microsoft.com/en-us/software-download/windows7" target="_blank">Microsoft's Website</a>.
 
 ## Preparing CrossFire Client
 
