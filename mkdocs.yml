@@ -36,8 +36,8 @@ nav:
   - VMWare:
     - Creating a VM: vmware/create-vm.md
     - Bypass Vmware:
-      - Updating Virtual Machine Config: vmware/vm_configuration.md
-      - Windows Registry Patch for Virtual Machines: vmware/registry_patch.md
+      - Updating VM Config: vmware/vm-config.md
+      - Registry Patch for VM: vmware/reg-vm.md
   - CrossFire Guides:
     - AFK Bot & Auto Ready Setup Instructions: crossfire/vm_afk_bot_instructions.md
   - Video Guides: video_guides.md
