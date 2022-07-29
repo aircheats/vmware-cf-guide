@@ -401,6 +401,10 @@
 <p>If you want to copy CrossFire from your Host System make sure to do this before adjusting the configuration.<br />
 It seems like adjusting the configuration will break drag-and-drop feature.</p>
 </div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To send files, use the WINDOWS shared folders, not VMWARE, or simply send the files before doing this process.</p>
+</div>
 <p><img alt="" src="../../img/bypass-vm/1.png" /></p>
 <p>We close the virtual machine and right click on it and open its directory.</p>
 <p><img alt="" src="../../img/bypass-vm/2.png" /></p>
@@ -410,13 +414,29 @@ It seems like adjusting the configuration will break drag-and-drop feature.</p>
 <p>I recommend using Notepadd ++ or Visual Studio Code</p>
 </div>
 <p>Now in the .vmx file we have to add the following lines at the end:</p>
-<div class="codehilite"><pre><span></span><code>monitor_control.restrict_backdoor = &quot;true&quot;
-isolation.tools.getPtrLocation.disable = &quot;true&quot;
-isolation.tools.setPtrLocation.disable = &quot;true&quot;
-isolation.tools.setVersion.disable = &quot;true&quot;
-isolation.tools.getVersion.disable = &quot;true&quot;
-monitor_control.disable_directexec = &quot;true&quot;
-monitor_control.disable_btmemspace = &quot;true&quot;
+<div class="codehilite"><pre><span></span><code>hypervisor.cpuid.v0 = &quot;FALSE&quot;
+board-id.reflectHost = &quot;TRUE&quot;
+hw.model.reflectHost = &quot;TRUE&quot;
+serialNumber.reflectHost = &quot;TRUE&quot;
+smbios.reflectHost = &quot;TRUE&quot;
+SMBIOS.noOEMStrings = &quot;TRUE&quot;
+isolation.tools.getPtrLocation.disable = &quot;TRUE&quot;
+isolation.tools.setPtrLocation.disable = &quot;TRUE&quot;
+isolation.tools.setVersion.disable = &quot;TRUE&quot;
+isolation.tools.getVersion.disable = &quot;TRUE&quot;
+monitor_control.disable_directexec = &quot;TRUE&quot;
+monitor_control.disable_chksimd = &quot;TRUE&quot;
+monitor_control.disable_ntreloc = &quot;TRUE&quot;
+monitor_control.disable_selfmod = &quot;TRUE&quot;
+monitor_control.disable_reloc = &quot;TRUE&quot;
+monitor_control.disable_btinout = &quot;TRUE&quot;
+monitor_control.disable_btmemspace = &quot;TRUE&quot;
+monitor_control.disable_btpriv = &quot;TRUE&quot;
+monitor_control.disable_btseg = &quot;TRUE&quot;
+monitor_control.restrict_backdoor = &quot;TRUE&quot;
+scsi0:0.productID = &quot;Tencent SSD&quot;
+scsi0:0.vendorID = &quot;Tencent&quot;
+ethernet0.address = &quot;00:11:56:20:D2:E8&quot;
 </code></pre></div>
 
 <div class="admonition info">
@@ -424,8 +444,14 @@ monitor_control.disable_btmemspace = &quot;true&quot;
 <p>Credits and special thanks to 0vis (Discord: 0vis#1008) for providing the proper configuration properties above.</p>
 </div>
 <p><img alt="" src="../../img/bypass-vm/3.png" /></p>
-<p>Save the file and close it.<br />
-You can now power it up again and proceed with the registry patch.  </p>
+<p>Save the file and close it.  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are going to use several virtual machines at the same time, you have to regenerate a new MAC address in each one</p>
+</div>
+<p><img alt="" src="../../img/bypass-vm/ethernet1.png" />
+<img alt="" src="../../img/bypass-vm/ethernet2.png" /></p>
+<p>You can now power it up again and proceed with the registry patch.  </p>
 
               
             </article>
