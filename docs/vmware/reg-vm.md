@@ -51,3 +51,6 @@ Now we can run Crossfire normally.
 We already have a virtual machine bypassed.
 
 In the next step we will learn how to use a bot so that the game does not detect the AFK
+
+!!! tip
+  You can clone this virtual machine several times to use other accounts at the same time.
