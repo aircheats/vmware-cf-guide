@@ -6,18 +6,20 @@ Ok, now if we open our virtual machine and try to open crossfire we will get an 
 Sorry, this application cannot run under a Virtual Machine
 ```
 
-In order to get rid of this error, you'll have to patch some entries in your Virtual Machines's Registry.
+In order to get rid of this error, you'll have to patch some entries in your Virtual Machines's Registry.  
+
 
 ## Download Registry Patch
 
 !!! info
-You can make your own registry patch but I'll leave you to download one totally free (it works perfectly).
+    You can make your own registry patch but I'll leave you to download one totally free (it works perfectly).
 
-This registry patch contains some required values which need to be changed in order to bypass security checks.
+This registry patch contains some required values which need to be changed in order to bypass security checks.  
 
 **Download the <a href="https://github.com/aircheats/vmware-cf-guide/raw/main/docs/vmware/reg-cf.reg" target="_blank">reg-cf.reg</a>.**
 
-For people who **do not want** to skip download the reg file. I will leave you the code of the file so that you can create your own **.reg**.
+For people who **do not want** to skip download the reg file. I will leave you the code of the file so that you can create your own **.reg**. 
+
 
 ```
   Windows Registry Editor Version 5.00
@@ -36,11 +38,11 @@ For people who **do not want** to skip download the reg file. I will leave you t
 Now we will have to pass the registry file to the virtual machine.
 
 Once you have the file on your Virtual Machine, simply **double-click** to execute it.  
-You will see an information and get asked if you want to continue, press `Yes` to apply the registry patch.
+You will see an information and get asked if you want to continue, press `Yes` to apply the registry patch.  
 
 ![](../../img/bypass-vm/4.png)
 
-Once the changes applied successfully you're good to go.
+Once the changes applied successfully you're good to go.  
 
 ![](../../img/bypass-vm/5.png)
 
