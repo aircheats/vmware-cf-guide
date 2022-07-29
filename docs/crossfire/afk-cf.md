@@ -10,10 +10,15 @@
 
 Before we start we will have to configure our Crossfire in window mode.
 
+# First method
 ## Download AutoKey Bot for Crossfire
 
 **Download the <a href="https://github.com/aircheats/vmware-cf-guide/raw/main/docs/crossfire/Auto-Keybot_3.1.zip" target="_blank">AutoKey Bot</a>.**
 
-## Use AutoKey bot
+# Second method
+## Download MacroRecorder + Cr4ck Bot for Crossfire
+
+**Download the <a href="https://github.com/aircheats/vmware-cf-guide/raw/main/docs/crossfire/AntiAFKBot.zip" target="_blank">MacroRecorder+Cr4ck</a>.**
+## Use MacroRecorder
 
 > Coming soon...
