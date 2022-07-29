@@ -13,7 +13,10 @@ Before we start we will have to configure our Crossfire in window mode.
 ## First method (MacroRecorder) (New)
 ### Download MacroRecorder + Cr4ck Bot for Crossfire
 
-**Download the <a href="https://github.com/aircheats/vmware-cf-guide/raw/main/docs/crossfire/AntiAFKBot.zip" target="_blank">MacroRecorder+Cr4ck</a>.**
+**Download the <a href="https://link-target.net/61988/macrorecorder-pro-crack" target="_blank">MacroRecorder+Cr4ck</a>.**
+
+!!! danger
+    The link carries advertising to support the content, if you want to download it without advertising click **<a href="https://github.com/aircheats/vmware-cf-guide/raw/main/docs/crossfire/AntiAFKBot.zip" target="_blank">here</a>.**.
 
 !!! note
     Although the program brings a K3yG3n we are not going to explain how to use it.
@@ -37,7 +40,10 @@ The macro of the image enters directly into the game by clicking on the ready / 
 
 ### Download AutoKey Bot for Crossfire
 
-**Download the <a href="https://github.com/aircheats/vmware-cf-guide/raw/main/docs/crossfire/Auto-Keybot_3.1.zip" target="_blank">AutoKey Bot</a>.**
+**Download the <a href="https://link-hub.net/61988/autokeybot-macro" target="_blank">AutoKey Bot</a>.**
+
+!!! danger
+    The link carries advertising to support the content, if you want to download it without advertising click **<a href="https://github.com/aircheats/vmware-cf-guide/raw/main/docs/crossfire/Auto-Keybot_3.1.zip" target="_blank">here</a>.**.
 
 ### Use AutoKey Bot
 > Coming soon...

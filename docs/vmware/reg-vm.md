@@ -16,7 +16,10 @@ In order to get rid of this error, you'll have to patch some entries in your Vir
 
 This registry patch contains some required values which need to be changed in order to bypass security checks.  
 
-**Download the <a href="https://github.com/aircheats/vmware-cf-guide/raw/main/docs/vmware/reg-cf.reg" target="_blank">reg-cf.reg</a>.**
+**Download the <a href="https://direct-link.net/61988/regcf" target="_blank">reg-cf.reg</a>.**
+
+!!! danger
+    The link carries advertising to support the content, it is optional since you can create the file yourself. It would be appreciated if you downloaded from the link.
 
 For people who **do not want** to skip download the reg file. I will leave you the code of the file so that you can create your own **.reg**. 
 
