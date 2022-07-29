@@ -2,7 +2,7 @@ site_name: VMWARE CROSSFIRE FARMING
 site_description: Setup instructions to run CrossFire on a Virtual Machine using VMWare.
 site_author: AirCh3ats
 copyright: 'Copyright &copy; 2021 AirCheats'
-site_url: 'https://cfna.github.io/vmware-docs'
+site_url: 'https://aircheats.github.io/vmware-cf-guide'
 theme:
   name: material
   palette:
@@ -19,7 +19,7 @@ extra:
       link: https://github.com/aircheats
 docs_dir: docs/
 site_dir: build/
-extra_javascript: 
+extra_javascript:
   - js/extra.js
 
 markdown_extensions:
@@ -36,9 +36,8 @@ nav:
   - Welcome: welcome.md
   - Getting Started: start.md
   - VMWare:
-    - Creating a VM: vmware/create-vm.md
-    - Bypass Vmware:
-      - Updating VM Config: vmware/vm-config.md
-      - Registry Patch for VM: vmware/reg-vm.md
+      - Creating a VM: vmware/create-vm.md
+      - Bypass Vmware:
+          - Updating VM Config: vmware/vm-config.md
+          - Registry Patch for VM: vmware/reg-vm.md
   - CrossFire AFK BOT: crossfire/afk-cf.md
-
