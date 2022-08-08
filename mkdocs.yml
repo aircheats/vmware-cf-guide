@@ -21,7 +21,8 @@ docs_dir: docs/
 site_dir: build/
 extra_javascript:
   - js/extra.js
-
+plugins:
+  - mkdocs-video
 markdown_extensions:
   - admonition
   - codehilite:
@@ -41,5 +42,3 @@ nav:
           - Updating VM Config: vmware/vm-config.md
           - Registry Patch for VM: vmware/reg-vm.md
   - CrossFire AFK BOT: crossfire/afk-cf.md
-plugins:
-    - mkdocs-video
