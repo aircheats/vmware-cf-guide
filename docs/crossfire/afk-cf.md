@@ -2,7 +2,7 @@
 
 > Now we will learn how to install and use the AFK Bot for Crossfire. I will also leave the parameters used for faster farming.
 
-![type:video](https://www.youtube.com/watch?v=iZdVacVl-ho)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iZdVacVl-ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! tip
     This is mainly used for EXP/Badge/Event farming.  
