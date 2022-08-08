@@ -41,3 +41,5 @@ nav:
           - Updating VM Config: vmware/vm-config.md
           - Registry Patch for VM: vmware/reg-vm.md
   - CrossFire AFK BOT: crossfire/afk-cf.md
+plugins:
+    - mkdocs-video
