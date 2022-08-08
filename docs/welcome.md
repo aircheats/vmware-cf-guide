@@ -18,3 +18,5 @@ If you're just here for a quick look-up you can use the navigation tree on the l
 Please make sure you've read the `DISCLAIMER` and `LEGAL NOTES` before proceeding.  
 This procedure, including the setup & configuration of the virtual machine is nothing illegal or forbidden, but everything you're doing, **you're doing it at your own risk!** 
 
+## What are you going to get with this guide?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iZdVacVl-ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
